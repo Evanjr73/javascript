@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>sistema de nacionalidade</h1>
+    onde vc nasceu ?<input type="text" name="nacionalidade" id="nacionalidade">
+    <input type="button" value="verificar" onclick="olhar()">
+    <div id="res"></div>
+<script>
+    function olhar(){
+        var pais = window.document.querySelector('input#nacionalidade')
+        var res = window.document.querySelector('div#res')
+        var nacionalidae = Text(pais.volue)
+        if (nacionalidae == 'br'){
+            res.innerHTML = 'vc é brasileiro' 
+        }else{
+            res.innerHTML = 'vc é gringo'
+        }
+        
+    }
+    
+</script>
+    
+    
+</body>
+</html>
