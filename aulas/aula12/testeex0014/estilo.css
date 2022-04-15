@@ -1,0 +1,25 @@
+body{
+    background-color: blue;
+}
+h1{
+    color: white;
+    text-align: center;
+}
+section{
+    width: 500px;
+    padding: 15px;
+    background-color: white;
+    text-align: center;
+    margin: auto;
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.49);
+    border-radius: 5px;
+}
+div{
+    
+    text-align: center;
+    
+}
+footer{
+    text-align: center;
+    color: white;
+}
